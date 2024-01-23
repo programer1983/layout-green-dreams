@@ -1,0 +1,42 @@
+.contacts {
+    margin-bottom: 150px;
+}
+.contacts-title {
+    font-size: 36px;
+    margin-bottom: 49.92px;
+}
+.contacts-body{
+    display: flex;
+    gap: 0 22.08px;
+}
+.contacts-img{
+    transform: translateY(10%);
+    transition: all .4s;
+    opacity: 0;
+}
+.contacts-img.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+.contacts-content{
+    transform: translateY(-30%);
+    transition: all .7s;
+    opacity: 0;
+}
+.contacts-content.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+.contacts-content__text {
+    max-width: 589px;
+    margin-bottom: 70px;
+    font-size: 28px;
+}
+.contacts-content__info {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.contacts-content__info dd{
+    margin-bottom: 32px;
+}

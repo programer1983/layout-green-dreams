@@ -1,0 +1,37 @@
+.how {
+    margin-bottom: 150px;
+}
+.how-title {
+    font-size: 36px;
+    margin-bottom: 49.92px;
+}
+.how-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1154px;
+    counter-reset: my-count;
+    gap: 0 15.04px;
+}
+.how-list__item {
+    font-size: 28px;
+    position: relative;
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+    height: 185px;
+}
+.how-list__item::before {
+    content: '';
+    content: counter(my-count, decimal-leading-zero);
+    counter-increment: my-count;
+    position: absolute;
+    left: 0;
+    color: rgba(109, 151, 115, 0.20);
+    font-family: Kaisei Decol;
+    font-size: 128px;
+    font-weight: 400;
+    /* letter-spacing: -12.8px; */
+}
+
+

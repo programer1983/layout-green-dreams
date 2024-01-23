@@ -1,0 +1,69 @@
+.about {
+    margin-bottom: 150.08px;
+}
+.about-title {
+   font-size: 36px;
+   margin-bottom: 50px;
+}
+.about-body {
+    display: flex;
+    align-items: center;
+    gap: 0 22.08px;
+    overflow-x: hidden;
+}
+.about-img {
+    transform: translateX(-20%);
+    transition: all .6s;
+    opacity: 0;
+}
+.about-img.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+.about-content{
+    transform: translateX(50%);
+    transition: all .7s;
+    opacity: 0;
+}
+.about-content.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+.about-content__texts {
+    max-width: 506px;
+    margin-bottom: 30px;
+}
+.about-content__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.about-content__text:not(:last-child) {
+   margin-bottom: 30px;
+}
+.about-content__text span {
+    font-family: var(--balsamicFont);
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 5px;
+    line-height: 1;
+}
+.about-content__title {
+    font-size: 28px;
+    margin-bottom: 30.08px;
+}
+.about-content__achievements {       
+    display: flex;
+    column-gap: 30.08px;
+    text-align: center;
+}
+
+.about-content__achievements dt {  
+    color: var(--Orange, #BB8A52);
+    font-size: 48px;
+}
+.about-content__achievements dd {  
+    color: var(--Orange, #BB8A52);
+    font-size: 18px;
+    font-weight: 500;
+}

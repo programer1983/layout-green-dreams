@@ -1,0 +1,37 @@
+.team {
+    margin-bottom: 150px;
+}
+.team-title {
+    font-size: 36px;
+    margin-bottom: 49.92px;
+}
+.team-text {
+    font-size: 28px;
+    margin-bottom: 92.96px;
+    line-height: 1.2;
+}
+.team-items {
+    display: flex;
+    gap: 0 49.92px;
+    justify-content: center;
+}
+.team-item {}
+.team-item__img {
+    border: 1px solid #FFBA00;
+    transition: all .3s ease;
+}
+.team-item__img:hover{
+    transform: scale(1.05);
+}
+.team-item__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15.04px;
+    margin-top: 9.92px;
+}
+.team-item__text {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 217px;
+    line-height: 1.2;
+}

@@ -1,0 +1,24 @@
+.services {
+    margin-bottom: 150.08px;
+}
+.services-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.services-text {
+    font-size: 28px;
+    max-width: 593px;
+    margin-bottom: 49.92px;
+    line-height: 1.2;
+}
+.services-body {
+    display: flex;
+    gap: 0 61px;
+}
+.services-body__item img {
+    margin-bottom: 20px;
+}
+.services-body__text {
+    font-size: 24px;
+    font-weight: 500;
+}

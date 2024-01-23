@@ -1,0 +1,40 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./about.css";
+@import "./why.css";
+@import "./project.css";
+@import "./services.css";
+@import "./rates.css";
+@import "./how.css";
+@import "./team.css";
+@import "./questions.css";
+@import "./detail.css";
+@import "./contacts.css";
+@import "./footer.css";
+@import "./reviews.css";
+
+
+:root {
+    --interFont: 'Inter', sans-serif;
+    --balsamicFont: 'Balsamiq Sans', sans-serif;
+    --manropeFont: 'Manrope', sans-serif;
+    --colorGreen: #0C3E2E;
+    --fontWeight: 600;
+    --fontSize: 29px;
+    --backgroundSite: #FBFDF8;
+}
+
+body {
+    font-family: var( --interFont);
+    color: var(--colorGreen);
+    font-weight: var(--fontWeight);
+    font-size: var(--fontSize);
+    background-color: var(--backgroundSite);
+}
+
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
