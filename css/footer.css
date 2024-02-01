@@ -47,3 +47,23 @@
     font-size: 36px;
     line-height: 1.2;
 }
+
+@media (max-width: 750px){
+    .footer-content__text{
+        font-size: 25px;
+    }
+}
+@media (max-width: 570px){
+    .footer-inner{
+        flex-direction: column;
+        row-gap: 70px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-content__text{
+        text-align: center;
+    }
+}

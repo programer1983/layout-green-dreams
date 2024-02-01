@@ -1,3 +1,4 @@
+
 const swiper = new Swiper('.swiper', {
     loop: true,
 
@@ -8,7 +9,36 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.reviews--next',
       prevEl: '.reviews--prev',
     },
+
+    breakpoints: {
+      951: {
+        spaceBetween: 20,
+        slidesPerView: 2,
+      },
+      0: {
+        spaceBetween: 0,
+        slidesPerView: 1,
+      }
+    },
   });
+
+
+/* ================================================================================== */
+
+const headerburger = document.querySelector('.header__burger')
+const navlist = document.querySelector('.header-info')
+let html = document.querySelector("html")
+
+headerburger.addEventListener('click', open)
+
+function open() {
+    if(headerburger){
+      navlist.classList.toggle('open-burger')
+      headerburger.classList.toggle('active')
+      html.classList.toggle("unscroll")
+    }
+}
+
 
 /* ================================================================================== */
 
@@ -28,6 +58,9 @@ accordeonTitles.forEach((accordeonTitle) => {
         }
     })
 })
+
+
+
 
 /* ================================================================================== */
 
@@ -88,3 +121,4 @@ let targets8 = document.querySelectorAll('.contacts-content')
 targets8.forEach(target => {
   observer.observe(target)
 })
+

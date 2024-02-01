@@ -13,7 +13,9 @@
 }
 .services-body {
     display: flex;
-    gap: 0 61px;
+    gap: 30px 61px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .services-body__item img {
     margin-bottom: 20px;
@@ -21,4 +23,25 @@
 .services-body__text {
     font-size: 24px;
     font-weight: 500;
+}
+
+@media (max-width: 1180px){
+    .services-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 593px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1130px){
+    .services {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 500px){
+    .services {
+        margin-bottom: 50px;
+    }
 }

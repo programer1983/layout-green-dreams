@@ -88,3 +88,32 @@
 .detail-images--update{
     grid-column: 1/-1;
 }
+
+@media (max-width: 1130px){
+    .detail {
+        margin-bottom: 70px;
+    }
+    .detail-title{
+        text-align: center;
+    }
+    .detail-inner{
+        flex-direction: column;
+        row-gap: 100px;
+    }
+   
+}
+@media (max-width: 700px){
+.detail {
+    margin-bottom: 50px;
+}
+  .detail-content{
+    width: 100%;
+  }
+  .detail-images{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .detail-images img{
+   width: 100%;
+  }
+}

@@ -24,6 +24,10 @@
     --backgroundSite: #FBFDF8;
 }
 
+.unscroll{
+    overflow: hidden;
+}
+
 body {
     font-family: var( --interFont);
     color: var(--colorGreen);
@@ -31,7 +35,6 @@ body {
     font-size: var(--fontSize);
     background-color: var(--backgroundSite);
 }
-
 
 .container {
     max-width: 1230px;

@@ -41,3 +41,42 @@
 .project-body__item--text {
     margin-top: 20px;
 }
+
+@media (max-width: 1130px){
+    .project {
+        margin-bottom: 100px;
+    }
+    .project-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-body {
+        grid-template-columns: repeat(2, 400px);
+        justify-content: center;
+    }
+}
+
+@media (max-width: 840px){
+    .project-body {
+        grid-template-columns: repeat(2, 320px);
+    }
+}
+
+@media (max-width: 670px){
+    .project-body {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .project-body__img img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .project {
+        margin-bottom: 50px;
+    }
+}
+

@@ -40,3 +40,25 @@
 .contacts-content__info dd{
     margin-bottom: 32px;
 }
+
+@media (max-width: 1040px){
+    .contacts {
+        margin-bottom: 70px;
+    }
+    .contacts-title{
+        text-align: center;
+    }
+    .contacts-body{
+        flex-direction: column-reverse;
+        justify-content: center;
+        row-gap: 50px;
+        text-align: center;
+    }
+    .contacts-content__text{
+        width: 100%;
+        margin: 0 auto 70px;
+    }
+    .contacts-img img{
+        width: 100%;
+    }
+}
