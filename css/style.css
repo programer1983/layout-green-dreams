@@ -34,6 +34,7 @@ body {
     font-weight: var(--fontWeight);
     font-size: var(--fontSize);
     background-color: var(--backgroundSite);
+    overflow-x: hidden;
 }
 
 .container {
