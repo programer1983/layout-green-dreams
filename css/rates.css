@@ -1,5 +1,6 @@
 .rates {
     margin-bottom: 150px;
+    overflow-x: hidden;
 }
 .rates-title {
     font-size: 36px;

@@ -1,5 +1,4 @@
 .header {
-    /* max-height: 100vh; */
     margin-bottom: 156px;
     background-image: url("./../img/header/header-bg.png");
     background-repeat: no-repeat;
@@ -55,7 +54,7 @@
 }
 .header__burger span {
     background-color: #000;
-    width: 100%;
+    width: 70%;
     height: 2px;
     transform: scale(1);
 }
@@ -64,7 +63,7 @@
 .header__burger::after {
     content: "";
     background-color: #000;
-    width: 100%;
+    width: 70%;
     height: 2px;
     position: absolute;
     transition: all .3s ease;
@@ -200,17 +199,18 @@
         transition: all .5s ease;
         z-index: 3;
         overflow-y: auto;
-        padding-top: 50px;
+        padding-top: 100px;
         padding-bottom: 50px;
     }
     .header_list {
         flex-direction: column;
-        align-items: center;
         row-gap: 40px;
+        align-items: center;
+        padding-left: 50px;
     }
     .header-link{
         color: #BB8A52;
-        font-size: 40px;
+        font-size: 40px;;
     }
     .header-phone {
         margin-top: 40px;
